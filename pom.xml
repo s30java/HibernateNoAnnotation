@@ -48,19 +48,30 @@
 		<version>3.2.1</version>
 	</dependency>
  
-	<dependency>
-		<groupId>cglib</groupId>
-		<artifactId>cglib</artifactId>
-		<version>2.2</version>
-	</dependency>
-	<!-- Hibernate library dependecy end -->
+<!-- Hibernate library dependecy end -->
  
 	<dependency>
 		<groupId>javax.transaction</groupId>
 		<artifactId>jta</artifactId>
 		<version>1.1</version>
 	</dependency>
- 
+ <dependency>
+	<groupId>asm</groupId>
+	<artifactId>asm-attrs</artifactId>
+	<version>1.5.3</version>
+</dependency>
+            <dependency>
+	<groupId>asm</groupId>
+	<artifactId>asm-all</artifactId>
+	<version>3.1</version>
+</dependency>
+
+<dependency>
+	<groupId>cglib</groupId>
+	<artifactId>cglib-nodep</artifactId>
+	<version>2.2</version>
+</dependency>
+            
   </dependencies>
   
   <build>
